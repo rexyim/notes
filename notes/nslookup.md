@@ -99,7 +99,7 @@
     -   **UINFO:**  Specifies the user information.
     -   **WKS:**  Describes a well-known service.
 
->### query
+>### -query
 >This displays information regarding processes, sessions, and Remote Desktop Session Host servers. For e.g
 
     >C:\Users\ap.........>nslookup -query=mx cloudns.net
@@ -114,12 +114,13 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
 
->### Debug
+>### -Debug
 >Debug is another one which is quite helpful. By turning debug mode on you can view more information about the packet sent to the server and the resulting answer.
 
 >Try some out and you will find nslookup to be a really handy tool in your arsenal.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzODYxNTkxLDE1MTQyOTA0OTIsLTE5OT
+eyJoaXN0b3J5IjpbOTEyMjYwMTM1LDE1MTQyOTA0OTIsLTE5OT
 QxMjAyMDAsLTExMTQ1MDM0NzQsNTM1MDY3OTY5LDcxNTU0NDU3
 MCwxMzE4NDUyNzMxLC0xMDcwMzA5Nzc5LC0xMDY0MDMxODUxXX
 0=
