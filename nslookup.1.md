@@ -120,11 +120,13 @@
 >### -Debug
 >Debug is another one which is quite helpful. By turning debug mode on you can view more information about the packet sent to the server and the resulting answer.
 
->### -server 
+>###  server 
 >This command uses the current default server to look up the information about the specified DSN domain.
->
+
+>### ls
+>ls just 
 >Try some out and you will find nslookup to be a really handy tool in your arsenal.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkzMDY1MDJdfQ==
+eyJoaXN0b3J5IjpbMTI5MzkyNjM0XX0=
 -->
