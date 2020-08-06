@@ -28,32 +28,13 @@
                   108.177.122.100
 
 > But why be non-interactive when interaction is so much fun.
+> To be i
 >Microsoft docs provide all the functionalities we can achieve with nslookup.
 >[Microsoft Nslookup Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup)
  
  >Lets try some fun ones out
  
- >### ls 
- >Well ls pretty much does the exact thing it does on linux system but with a twist.
- >Once you go interactive by typing
  
-
-    C:\Users\a..........r>nslookup 
-        Server:  $.$.$.$
-        Address:  #.#.#.#
-     >
->you can type the following
-
-    ls [<option>] <DNSdomain> [{[>] <filename>|[>>] <filename>}]
->and try bunch of options like.
-
-    -   **-t:**  Lists all records of the specified type. For more information, see  [nslookup set querytype](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup-set-querytype).
-    -   **-a:**  Lists aliases of computers in the DNS domain. This parameter is the same as  **-t CNAME**
-    -   **-d:**  Lists all records for the DNS domain. This parameter is the same as  **-t ANY**
-    -   **-h:**  Lists CPU and operating system information for the DNS domain. This parameter is the same as  **-t HINFO**
-    -   **-s:**  Lists well-known services of computers in the DNS domain. This parameter is the same as  **-t WKS**
->but if the network admins have done their job you would not be able get this information. From a hackers perspective this info is a goldmine.
-
 >### Set
 >Set is another big one.
 >for e.g If you are looking for a specific record type in DNS, you can set it with the following
@@ -112,7 +93,7 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ1MDM0NzQsNTM1MDY3OTY5LDcxNT
-U0NDU3MCwxMzE4NDUyNzMxLC0xMDcwMzA5Nzc5LC0xMDY0MDMx
-ODUxXX0=
+eyJoaXN0b3J5IjpbMTM5NTc0NzUwMywtMTExNDUwMzQ3NCw1Mz
+UwNjc5NjksNzE1NTQ0NTcwLDEzMTg0NTI3MzEsLTEwNzAzMDk3
+NzksLTEwNjQwMzE4NTFdfQ==
 -->
