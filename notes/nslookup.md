@@ -99,7 +99,7 @@
 >### query
 >This displays information regarding processes, sessions, and Remote Desktop Session Host servers. For e.g
 
-    > set query=mx
+    > query=mx
     > cloudns.net
         Server:  $.$.$.$
         Address:  #.#.#.#
@@ -112,7 +112,7 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NDU5MDg4LDUzNTA2Nzk2OSw3MTU1ND
-Q1NzAsMTMxODQ1MjczMSwtMTA3MDMwOTc3OSwtMTA2NDAzMTg1
-MV19
+eyJoaXN0b3J5IjpbLTExMTQ1MDM0NzQsNTM1MDY3OTY5LDcxNT
+U0NDU3MCwxMzE4NDUyNzMxLC0xMDcwMzA5Nzc5LC0xMDY0MDMx
+ODUxXX0=
 -->
