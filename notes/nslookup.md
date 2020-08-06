@@ -42,8 +42,19 @@
         Server:  $.$.$.$
         Address:  #.#.#.#
      >
->
+>you can type the following
+
+    ls [<option>] <DNSdomain> [{[>] <filename>|[>>] <filename>}]
+>and try bunch of options like.
+The valid options include:
+
+    -   **-t:**  Lists all records of the specified type. For more information, see  [nslookup set querytype](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup-set-querytype).
+    -   **-a:**  Lists aliases of computers in the DNS domain. This parameter is the same as  **-t CNAME**
+    -   **-d:**  Lists all records for the DNS domain. This parameter is the same as  **-t ANY**
+    -   **-h:**  Lists CPU and operating system information for the DNS domain. This parameter is the same as  **-t HINFO**
+    -   **-s:**  Lists well-known services of computers in the DNS domain. This parameter is the same as  **-t WKS**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM0MDM3OSwtMTA3MDMwOTc3OSwtMT
+eyJoaXN0b3J5IjpbMTAwNTIxNTQyMiwtMTA3MDMwOTc3OSwtMT
 A2NDAzMTg1MV19
 -->
