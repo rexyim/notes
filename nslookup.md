@@ -19,13 +19,14 @@ Before you even play with nslookup you need to understand DNS and how exactly it
 </ul>
 </blockquote>
 <blockquote>
-<p>The interactive  is way more fun than the non-interactive one. Obviously, if you have a simple query you can get it done with non-interactive mode for e.g</p>
+<p>
+
+> The interactive  is way more fun than the non-interactive one. Obviously, if you have a simple query you can get it done with non-interactive mode for e.g</p>
 </blockquote>
 <pre><code>C:\Users\a..........r&gt;nslookup google.com
     Server:  $.$.$.$
     Address:  #.#.#.#
-    
-Non-authoritative answer:
+    Non-authoritative answer:
     Name:    google.com
     Addresses:  2607:f8b0:4002:c02::71
               2607:f8b0:4002:c02::8b
@@ -38,7 +39,7 @@ Non-authoritative answer:
               108.177.122.100
 </code></pre>
 <blockquote>
-<p>But why be non-interactive when interaction is so much fun.<br>
+<p>But why be non-interactivewhen interaction is so much fun.<br>
 To be interactive Type a hyphen (-) then your chosen parameter and then the name or IP address.<br>
 Microsoft docs provide all the functionalities we can achieve with nslookup.<br>
 <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup">Microsoft Nslookup Docs</a></p>
@@ -74,7 +75,7 @@ Set options:
 </code></pre>
 <blockquote>
 <h3 id="type">-Type</h3>
-<p>If you are looking for a specific record type in DNS, you can set it with the following</p>
+>If you are looking for a specific record type in DNS, you can set it with the following</p>
 </blockquote>
 <pre><code>C:\Users\ap.........&gt;nslookup -type=A  google.com
 </code></pre>
@@ -119,7 +120,8 @@ Below are all the records type you can look for with nslookup.</p>
 </code></pre>
 <blockquote>
 <h3 id="query">-query</h3>
-<p>This displays information regarding processes, sessions, and Remote Desktop Session Host servers. For e.g</p>
+<p
+>This displays information regarding processes, sessions, and Remote Desktop Session Host servers. For e.g</p>
 </blockquote>
 <pre><code>&gt;C:\Users\ap.........&gt;nslookup -query=mx cloudns.net
     Server:  $.$.$.$
@@ -141,26 +143,43 @@ cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 </blockquote>
 <blockquote>
 <h3 id="server">server</h3>
-<p>This command uses the current default server to look up the information about the specified DSN domain.</p>
+<p
+
+>### server
+>This command uses the current default server to look up the information about the specified DSN domain.</p>
 </blockquote>
-<pre><code>&gt;C:\Users\ap.........&gt;nslookup server &lt;DNSdomain&gt;
+<pre><code>&gt;
+
+    >C:\Users\ap.........&gt;>nslookup server &lt;<DNSdomain&gt;
 </code></pre>
 <blockquote>
 <h3 id="ls">ls</h3>
 <p>Lists DNS domain information.</p>
 </blockquote>
-<pre><code>&gt;C:\Users\ap.........&gt;nslookup ls [&lt;option&gt;] &lt;DNSdomain&gt;
+<pre><code>&gt;>
+
+>### ls
+>Lists DNS domain information.
+
+    >C:\Users\ap.........&gt;>nslookup ls [&lt;<option&gt;] &lt;DNSdomain&gt;
 </code></pre>
 <blockquote>
 <p>Options can be</p>
 </blockquote>
-<pre><code>-   **-t:**  Lists all records of the specified type. For more information, see  [nslookup set querytype](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup-set-querytype).
--   **-a:**  Lists aliases of computers in the DNS domain. This parameter is the same as  **-t CNAME**
--   **-d:**  Lists all records for the DNS domain. This parameter is the same as  **-t ANY**
--   **-h:**  Lists CPU and operating system information for the DNS domain. This parameter is the same as  **-t HINFO**
--   **-s:**  Lists well-known services of computers in the DNS domain. This parameter is the same as  **-t WKS**.
+<pre><code>>] <DNSdomain>
+>Options can be 
+
+    -   **-t:**  Lists all records of the specified type. For more information, see  [nslookup set querytype](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup-set-querytype).
+    -   **-a:**  Lists aliases of computers in the DNS domain. This parameter is the same as  **-t CNAME**
+    -   **-d:**  Lists all records for the DNS domain. This parameter is the same as  **-t ANY**
+    -   **-h:**  Lists CPU and operating system information for the DNS domain. This parameter is the same as  **-t HINFO**
+    -   **-s:**  Lists well-known services of computers in the DNS domain. This parameter is the same as  **-t WKS**.
 </code></pre>
 <blockquote>
-<p>Try some out and you will find nslookup to be a really handy tool in your arsenal.</p>
+<p
+>Try some out and you will find nslookup to be a really handy tool in your arsenal.</p>
 </blockquote>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgxODgyNDUwMV19
+-->
