@@ -57,8 +57,11 @@
 >### Set
 >Set is another big one.
 >for e.g If you are looking for a specific record type in DNS, you can set it with the following
-> 
+
+    >set type=MX 
+>This will set the type of record we are looking for which in the above case is mail exchanger.
+>after th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA1NzQyLC0xMDcwMzA5Nzc5LC0xMD
-Y0MDMxODUxXX0=
+eyJoaXN0b3J5IjpbMTA1MTY3MDk0NywtMTA3MDMwOTc3OSwtMT
+A2NDAzMTg1MV19
 -->
