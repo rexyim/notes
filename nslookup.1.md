@@ -122,11 +122,25 @@
 
 >###  server 
 >This command uses the current default server to look up the information about the specified DSN domain.
+>C:\Users\ap.........>nslookup server <new
 
 >### ls
 >ls just provides in formation about the DNS.
+>C:\Users\ap.........>nslookup ls [<option>] <DNSdomain>
+>
+
+
+    
+    The valid options include:
+    
+    -   **-t:**  Lists all records of the specified type. For more information, see  [nslookup set querytype](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup-set-querytype).
+    -   **-a:**  Lists aliases of computers in the DNS domain. This parameter is the same as  **-t CNAME**
+    -   **-d:**  Lists all records for the DNS domain. This parameter is the same as  **-t ANY**
+    -   **-h:**  Lists CPU and operating system information for the DNS domain. This parameter is the same as  **-t HINFO**
+    -   **-s:**  Lists well-known services of computers in the DNS domain. This parameter is the same as  **-t WKS**.
+
 >Try some out and you will find nslookup to be a really handy tool in your arsenal.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg5MzU4MTFdfQ==
+eyJoaXN0b3J5IjpbMTI5NTI0NzAyMiwtMTIyODkzNTgxMV19
 -->
