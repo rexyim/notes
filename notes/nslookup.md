@@ -32,7 +32,9 @@
 >Microsoft docs provide all the functionalities we can achieve with nslookup.
 >[Microsoft Nslookup Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup)
  >Lets try some fun ones out
->### S
+>### help
+>This is the most important one out of all of them. If you get stuck i nslookup type help or ? and enter
+>### -Type
 >If you are looking for a specific record type in DNS, you can set it with the following
 
     >set type=MX 
@@ -89,7 +91,7 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI5OTk2NjksLTE5OTQxMjAyMDAsLT
+eyJoaXN0b3J5IjpbLTE0MzYyMDcyOTQsLTE5OTQxMjAyMDAsLT
 ExMTQ1MDM0NzQsNTM1MDY3OTY5LDcxNTU0NDU3MCwxMzE4NDUy
 NzMxLC0xMDcwMzA5Nzc5LC0xMDY0MDMxODUxXX0=
 -->
