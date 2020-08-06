@@ -7,12 +7,13 @@
 
 >At its core nslookup is a tool used to gain information from DNS server.
 >Before you even play with nslookup you need to understand DNS and how exactly it works. The following link will give you a brief understanding of DNS.
->Nslookup is a window based utility and can be launched in two modes.
+>[CLOUDFLARE DNS](https://www.cloudflare.com/learning/dns/what-is-dns)
 
+>Nslookup is a window based utility and can be launched in two modes.
 > - Interactive 
 > - non-interactive
 
-> The interactive more is way more fun than the non-interactive one. Obviously, if you have a simple query you can get it done with non-interactive mode for e.g
+> The interactive  is way more fun than the non-interactive one. Obviously, if you have a simple query you can get it done with non-interactive mode for e.g
 
     C:\Users\a..........r>nslookup google.com
         Server:  $.$.$.$
@@ -123,5 +124,5 @@
 >Try some out and you will find nslookup to be a really handy tool in your arsenal.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NzM0MTkzXX0=
+eyJoaXN0b3J5IjpbNzUyOTQxODQwXX0=
 -->
