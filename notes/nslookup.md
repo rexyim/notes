@@ -32,9 +32,11 @@
 >[Microsoft Nslookup Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup)
  
  >Lets try some fun ones out
- >
+ 
+ >### ls 
+ >Well ls pretty much does the exact thing i
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAzMDk3NzksLTEwNjQwMzE4NTFdfQ
-==
+eyJoaXN0b3J5IjpbMTYyMjc5NjE1LC0xMDcwMzA5Nzc5LC0xMD
+Y0MDMxODUxXX0=
 -->
