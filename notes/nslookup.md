@@ -98,10 +98,23 @@
 
 >### query
 >This displays information regarding processes, sessions, and Remote Desktop Session Host servers. For e.g
->ws
+
+    > set query=mx
+    > cloudns.net
+        Server:  $.$.$.$
+        Address:  #.#.#.#
+    
+    Non-authoritative answer:
+    cloudns.net     MX preference = 10, mail exchanger = ALT3.ASPMX.L.GOOGLE.COM
+    cloudns.net     MX preference = 1, mail exchanger = ASPMX.L.GOOGLE.COM
+    cloudns.net     MX preference = 5, mail exchanger = ALT1.ASPMX.L.GOOGLE.COM
+    cloudns.net     MX preference = 10, mail exchanger = ALT4.ASPMX.L.GOOGLE.COM
+    cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
+
+>
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzM5NDAxMyw1MzUwNjc5NjksNzE1NT
+eyJoaXN0b3J5IjpbMjA3NDY5MzM4Nyw1MzUwNjc5NjksNzE1NT
 Q0NTcwLDEzMTg0NTI3MzEsLTEwNzAzMDk3NzksLTEwNjQwMzE4
 NTFdfQ==
 -->
