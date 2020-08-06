@@ -62,12 +62,11 @@
 >### -Type
 >If you are looking for a specific record type in DNS, you can set it with the following
 
-    >set type=MX 
+    C:\Users\ap.........>nslookup -type=A  google.com
 >This will set the type of record we are looking for which in the above case is mail exchanger.
 >after this you can query the DNS server with ip or domain and it will return only the specific related record. For e.g
-
-    > set type=A
-    > google.com
+ 
+    google.com
         Server:  $.$.$.$
         Address:  #.#.#.#
     
@@ -116,7 +115,7 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDMwMzMzNywtMTk5NDEyMDIwMCwtMT
+eyJoaXN0b3J5IjpbMjEwMDUxMTQwOSwtMTk5NDEyMDIwMCwtMT
 ExNDUwMzQ3NCw1MzUwNjc5NjksNzE1NTQ0NTcwLDEzMTg0NTI3
 MzEsLTEwNzAzMDk3NzksLTEwNjQwMzE4NTFdfQ==
 -->
