@@ -110,11 +110,9 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT1.ASPMX.L.GOOGLE.COM
     cloudns.net     MX preference = 10, mail exchanger = ALT4.ASPMX.L.GOOGLE.COM
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
-
->
->
+>Here we are checking the MX records of the mail servers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDY5MzM4Nyw1MzUwNjc5NjksNzE1NT
-Q0NTcwLDEzMTg0NTI3MzEsLTEwNzAzMDk3NzksLTEwNjQwMzE4
-NTFdfQ==
+eyJoaXN0b3J5IjpbNjI5NDU5MDg4LDUzNTA2Nzk2OSw3MTU1ND
+Q1NzAsMTMxODQ1MjczMSwtMTA3MDMwOTc3OSwtMTA2NDAzMTg1
+MV19
 -->
