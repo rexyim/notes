@@ -60,8 +60,8 @@
 
     >set type=MX 
 >This will set the type of record we are looking for which in the above case is mail exchanger.
->after th
+>after this you can pass 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTY3MDk0NywtMTA3MDMwOTc3OSwtMT
+eyJoaXN0b3J5IjpbMTMxODQ1MjczMSwtMTA3MDMwOTc3OSwtMT
 A2NDAzMTg1MV19
 -->
