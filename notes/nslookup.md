@@ -115,9 +115,12 @@
 >Here we are checking the MX records of the mail servers.
 
 >### Debug
->Debug is another one which is quite helpful.
+>Debug is another one which is quite helpful. By turning debug mode on you can view more information about the packet sent to the server and the resulting answer.
+
+>Try some out and you will find nslookup to be a really handy tool in your arsenal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDI5MDQ5MiwtMTk5NDEyMDIwMCwtMT
-ExNDUwMzQ3NCw1MzUwNjc5NjksNzE1NTQ0NTcwLDEzMTg0NTI3
-MzEsLTEwNzAzMDk3NzksLTEwNjQwMzE4NTFdfQ==
+eyJoaXN0b3J5IjpbMjYzODYxNTkxLDE1MTQyOTA0OTIsLTE5OT
+QxMjAyMDAsLTExMTQ1MDM0NzQsNTM1MDY3OTY5LDcxNTU0NDU3
+MCwxMzE4NDUyNzMxLC0xMDcwMzA5Nzc5LC0xMDY0MDMxODUxXX
+0=
 -->
