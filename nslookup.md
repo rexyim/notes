@@ -3,13 +3,15 @@
 
 ---
 
+<hr>
+<hr>
 <blockquote>
 <h1 id="nslookup">NSLOOKUP</h1>
 </blockquote>
 <blockquote>
 <p>At its core nslookup is a tool used to gain information from DNS server.<br>
 Before you even play with nslookup you need to understand DNS and how exactly it works. The following link will give you a brief understanding of DNS.
-<a href="https://www.cloudflare.com/learning/dns/what-is-dns/">DNS</a>
+<a href="https://www.cloudflare.com/learning/dns/what-is-dns/">DNS  Cloudflare</a>
 <br>
 Nslookup is a window based utility and can be launched in two modes.</p>
 </blockquote>
@@ -25,19 +27,18 @@ Nslookup is a window based utility and can be launched in two modes.</p>
 <pre><code>C:\Users\a..........r&gt;nslookup google.com
     Server:  $.$.$.$
     Address:  #.#.#.#
-    
-Non-authoritative answer:
-    Name:    google.com
-    Addresses:  2607:f8b0:4002:c02::71
-              2607:f8b0:4002:c02::8b
-              2607:f8b0:4002:c02::66
-              108.177.122.138
-              108.177.122.102
-              108.177.122.139
-              108.177.122.101
-              108.177.122.113
-              108.177.122.100
-</code></pre>
+</code></pre><p>Non-authoritative answer:<br>
+Name:    <a href="http://google.com">google.com</a><br>
+Addresses:  2607:f8b0:4002:c02::71<br>
+2607:f8b0:4002:c02::8b<br>
+2607:f8b0:4002:c02::66<br>
+108.177.122.138<br>
+108.177.122.102<br>
+108.177.122.139<br>
+108.177.122.101<br>
+108.177.122.113<br>
+108.177.122.100<br>
+</p>
 <blockquote>
 <p>But why be non-interactive when interaction is so much fun.<br>
 To be interactive Type a hyphen (-) then your chosen parameter and then the name or IP address.<br>
@@ -53,26 +54,25 @@ Microsoft docs provide all the functionalities we can achieve with nslookup.<br>
 </blockquote>
 <pre><code>C:\Users\ap.........&gt;nslookup -all ?
 Default Server:  (null)
-
-Set options:
-  nodebug
-  defname
-  search
-  recurse
-  nod2
-  novc
-  noignoretc
-  port=53
-  type=A+AAAA
-  class=IN
-  timeout=2
-  retry=1
-  root=A.ROOT-SERVERS.NET.
-  domain=xx.xxx.xxx
-  MSxfr
-  IXFRversion=1
-  srchlist=xxxx/xxxxx/xxxxxxx
-</code></pre>
+</code></pre><p>Set options:<br>
+nodebug<br>
+defname<br>
+search<br>
+recurse<br>
+nod2<br>
+novc<br>
+noignoretc<br>
+port=53<br>
+type=A+AAAA<br>
+class=IN<br>
+timeout=2<br>
+retry=1<br>
+<a href="http://root=A.ROOT-SERVERS.NET">root=A.ROOT-SERVERS.NET</a>.<br>
+<a href="http://domain=xx.xxx.xxx">domain=xx.xxx.xxx</a><br>
+MSxfr<br>
+IXFRversion=1<br>
+srchlist=xxxx/xxxxx/xxxxxxx<br>
+</p>
 <blockquote>
 <h3 id="type">-Type</h3>
 <p>If you are looking for a specific record type in DNS, you can set it with the following</p>
@@ -86,16 +86,16 @@ after this you can query the DNS server with ip or domain and it will return onl
 <pre><code>google.com
     Server:  $.$.$.$
     Address:  #.#.#.#
-
-    Non-authoritative answer:
-    Name:    google.com
-    Addresses:  108.177.122.113
-              108.177.122.100
-              108.177.122.101
-              108.177.122.138
-              108.177.122.139
-              108.177.122.102
+</code><pre><code>Non-authoritative answer:
+Name:    google.com
+Addresses:  108.177.122.113
+          108.177.122.100
+          108.177.122.101
+          108.177.122.138
+          108.177.122.139
+          108.177.122.102
 </code></pre>
+</pre><p></p>
 <blockquote>
 <p>preety cool right !<br>
 Below are all the records type you can look for with nslookup.</p>
@@ -125,14 +125,13 @@ Below are all the records type you can look for with nslookup.</p>
 <pre><code>&gt;C:\Users\ap.........&gt;nslookup -query=mx cloudns.net
     Server:  $.$.$.$
     Address:  #.#.#.#
-
-Non-authoritative answer:
-cloudns.net     MX preference = 10, mail exchanger = ALT3.ASPMX.L.GOOGLE.COM
-cloudns.net     MX preference = 1, mail exchanger = ASPMX.L.GOOGLE.COM
-cloudns.net     MX preference = 5, mail exchanger = ALT1.ASPMX.L.GOOGLE.COM
-cloudns.net     MX preference = 10, mail exchanger = ALT4.ASPMX.L.GOOGLE.COM
-cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
-</code></pre>
+</code></pre><p>Non-authoritative answer:<br>
+<a href="http://cloudns.net">cloudns.net</a>     MX preference = 10, mail exchanger = <a href="http://ALT3.ASPMX.L.GOOGLE.COM">ALT3.ASPMX.L.GOOGLE.COM</a><br>
+<a href="http://cloudns.net">cloudns.net</a>     MX preference = 1, mail exchanger = <a href="http://ASPMX.L.GOOGLE.COM">ASPMX.L.GOOGLE.COM</a><br>
+<a href="http://cloudns.net">cloudns.net</a>     MX preference = 5, mail exchanger = <a href="http://ALT1.ASPMX.L.GOOGLE.COM">ALT1.ASPMX.L.GOOGLE.COM</a><br>
+<a href="http://cloudns.net">cloudns.net</a>     MX preference = 10, mail exchanger = <a href="http://ALT4.ASPMX.L.GOOGLE.COM">ALT4.ASPMX.L.GOOGLE.COM</a><br>
+<a href="http://cloudns.net">cloudns.net</a>     MX preference = 5, mail exchanger = <a href="http://ALT2.ASPMX.L.GOOGLE.COM">ALT2.ASPMX.L.GOOGLE.COM</a><br>
+</p>
 <blockquote>
 <p>Here we are checking the MX records of the mail servers.</p>
 </blockquote>
@@ -150,19 +149,16 @@ C:\Users\ap…&gt;nslookup server  or </p>
 <p>ls just provides in formation about the DNS.</p>
 </blockquote>
 <pre><code>&gt;C:\Users\ap.........&gt;nslookup ls [&lt;option&gt;] &lt;DNSdomain&gt;
-
-The valid options include:
-
--   **-t:**  Lists all records of the specified type. For more information, see  [nslookup set querytype](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup-set-querytype).
--   **-a:**  Lists aliases of computers in the DNS domain. This parameter is the same as  **-t CNAME**
--   **-d:**  Lists all records for the DNS domain. This parameter is the same as  **-t ANY**
--   **-h:**  Lists CPU and operating system information for the DNS domain. This parameter is the same as  **-t HINFO**
--   **-s:**  Lists well-known services of computers in the DNS domain. This parameter is the same as  **-t WKS**.
-</code></pre>
+</code></pre><p>The valid options include:</p>
+<ul>
+<li><strong>-t:</strong>  Lists all records of the specified type. For more information, see  <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup-set-querytype">nslookup set querytype</a>.</li>
+<li><strong>-a:</strong>  Lists aliases of computers in the DNS domain. This parameter is the same as  <strong>-t CNAME</strong></li>
+<li><strong>-d:</strong>  Lists all records for the DNS domain. This parameter is the same as  <strong>-t ANY</strong></li>
+<li><strong>-h:</strong>  Lists CPU and operating system information for the DNS domain. This parameter is the same as  <strong>-t HINFO</strong></li>
+<li><strong>-s:</strong>  Lists well-known services of computers in the DNS domain. This parameter is the same as  <strong>-t WKS</strong>.<br>
+</li>
+</ul>
 <blockquote>
 <p>Try some out and you will find nslookup to be a really handy tool in your arsenal.</p>
 </blockquote>
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY1MTMxNTFdfQ==
--->
