@@ -35,9 +35,8 @@
  >Lets try some fun ones out
  
  
->### Set
->Set is another big one.
->for e.g If you are looking for a specific record type in DNS, you can set it with the following
+>### Set type
+>If you are looking for a specific record type in DNS, you can set it with the following
 
     >set type=MX 
 >This will set the type of record we are looking for which in the above case is mail exchanger.
@@ -93,7 +92,7 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ1OTk3MTQsLTExMTQ1MDM0NzQsNT
+eyJoaXN0b3J5IjpbLTE5OTQxMjAyMDAsLTExMTQ1MDM0NzQsNT
 M1MDY3OTY5LDcxNTU0NDU3MCwxMzE4NDUyNzMxLC0xMDcwMzA5
 Nzc5LC0xMDY0MDMxODUxXX0=
 -->
