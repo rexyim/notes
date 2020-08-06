@@ -96,8 +96,12 @@
     -   **UINFO:**  Specifies the user information.
     -   **WKS:**  Describes a well-known service.
 
->###
+>### Set port
+>Within the subset of set command for nslookup we have an option of set port number
+
+    set port=<port>
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTczNzA1NSwxMzE4NDUyNzMxLC0xMD
-cwMzA5Nzc5LC0xMDY0MDMxODUxXX0=
+eyJoaXN0b3J5IjpbNzE1NTQ0NTcwLDEzMTg0NTI3MzEsLTEwNz
+AzMDk3NzksLTEwNjQwMzE4NTFdfQ==
 -->
