@@ -31,12 +31,8 @@
 > To be interactive Type a hyphen (-) then your chosen parameter and then the name or IP address.
 >Microsoft docs provide all the functionalities we can achieve with nslookup.
 >[Microsoft Nslookup Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup)
-> The following is a list of parameters that can be used with nslookup
->  
  >Lets try some fun ones out
- 
- 
->### Set type
+>### S
 >If you are looking for a specific record type in DNS, you can set it with the following
 
     >set type=MX 
@@ -93,7 +89,7 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcyMTU1ODQsLTE5OTQxMjAyMDAsLT
+eyJoaXN0b3J5IjpbLTE0NDI5OTk2NjksLTE5OTQxMjAyMDAsLT
 ExMTQ1MDM0NzQsNTM1MDY3OTY5LDcxNTU0NDU3MCwxMzE4NDUy
 NzMxLC0xMDcwMzA5Nzc5LC0xMDY0MDMxODUxXX0=
 -->
