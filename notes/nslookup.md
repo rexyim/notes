@@ -97,9 +97,10 @@
     -   **WKS:**  Describes a well-known service.
 
 >### query
+>This displays information regarding processes, sessions, and Remote Desktop Session Host servers. For e.g
 >
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDQ3NjM0Myw3MTU1NDQ1NzAsMTMxOD
-Q1MjczMSwtMTA3MDMwOTc3OSwtMTA2NDAzMTg1MV19
+eyJoaXN0b3J5IjpbNTM1MDY3OTY5LDcxNTU0NDU3MCwxMzE4ND
+UyNzMxLC0xMDcwMzA5Nzc5LC0xMDY0MDMxODUxXX0=
 -->
