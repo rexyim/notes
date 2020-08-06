@@ -56,8 +56,9 @@
 
 >### Set
 >Set is another big one.
->
+>for e.g If you are looking for a specific record type in DNS, you can set it with the following
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTM2MzIwMywtMTA3MDMwOTc3OSwtMT
-A2NDAzMTg1MV19
+eyJoaXN0b3J5IjpbLTEwNTA1NzQyLC0xMDcwMzA5Nzc5LC0xMD
+Y0MDMxODUxXX0=
 -->
