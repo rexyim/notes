@@ -98,9 +98,10 @@
 
 >### query
 >This displays information regarding processes, sessions, and Remote Desktop Session Host servers. For e.g
->
+>ws
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1MDY3OTY5LDcxNTU0NDU3MCwxMzE4ND
-UyNzMxLC0xMDcwMzA5Nzc5LC0xMDY0MDMxODUxXX0=
+eyJoaXN0b3J5IjpbMjEzNzM5NDAxMyw1MzUwNjc5NjksNzE1NT
+Q0NTcwLDEzMTg0NTI3MzEsLTEwNzAzMDk3NzksLTEwNjQwMzE4
+NTFdfQ==
 -->
