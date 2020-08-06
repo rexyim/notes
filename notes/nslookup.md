@@ -76,9 +76,28 @@
                   108.177.122.139
                   108.177.122.102
 >preety cool right !
->Below are all the records type you
+>Below are all the records type you can look for with nslookup.
+
+    >-   **A:**  Specifies a computer's IP address.
+    -   **ANY:**  Specifies a computer's IP address.
+    -   **CNAME:**  Specifies a canonical name for an alias.
+    -   **GID**  Specifies a group identifier of a group name.
+    -   **HINFO:**  Specifies a computer's CPU and type of operating system.
+    -   **MB:**  Specifies a mailbox domain name.
+    -   **MG:**  Specifies a mail group member.
+    -   **MINFO:**  Specifies mailbox or mail list information.
+    -   **MR:**  Specifies the mail rename domain name.
+    -   **MX:**  Specifies the mail exchanger.
+    -   **NS:**  Specifies a DNS name server for the named zone.
+    -   **PTR:**  Specifies a computer name if the query is an IP address; otherwise, specifies the pointer to other information.
+    -   **SOA:**  Specifies the start-of-authority for a DNS zone.
+    -   **TXT:**  Specifies the text information.
+    -   **UID:**  Specifies the user identifier.
+    -   **UINFO:**  Specifies the user information.
+    -   **WKS:**  Describes a well-known service.
+
 >###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzM0MTQ2NiwxMzE4NDUyNzMxLC0xMD
+eyJoaXN0b3J5IjpbMTQ0NTczNzA1NSwxMzE4NDUyNzMxLC0xMD
 cwMzA5Nzc5LC0xMDY0MDMxODUxXX0=
 -->
