@@ -52,9 +52,12 @@
     -   **-d:**  Lists all records for the DNS domain. This parameter is the same as  **-t ANY**
     -   **-h:**  Lists CPU and operating system information for the DNS domain. This parameter is the same as  **-t HINFO**
     -   **-s:**  Lists well-known services of computers in the DNS domain. This parameter is the same as  **-t WKS**
->but if the network admins have done their job you would not be able get this information. From a hackers perspective this is a goldmine.
+>but if the network admins have done their job you would not be able get this information. From a hackers perspective this info is a goldmine.
+
+>### Set
+>Set is another big one.
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzE2NDU1MSwtMTA3MDMwOTc3OSwtMT
+eyJoaXN0b3J5IjpbLTI3MTM2MzIwMywtMTA3MDMwOTc3OSwtMT
 A2NDAzMTg1MV19
 -->
