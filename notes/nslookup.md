@@ -26,8 +26,11 @@
               108.177.122.113
               108.177.122.100
 
- But why be non-interactive when interaction is so much fun.
+> But why be non-interactive when interaction is so much fun.
+>Microsoft docs provide all the functionalities we can achieve with nslookup.
+>
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4NTg3MjQsLTEwNjQwMzE4NTFdfQ==
+eyJoaXN0b3J5IjpbLTE1OTg0MzA5OTcsLTEwNjQwMzE4NTFdfQ
+==
 -->
