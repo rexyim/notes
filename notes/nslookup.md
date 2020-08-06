@@ -8,9 +8,26 @@
 > - Interactive 
 > - non-interactive
 > 
-> The interactive more is way more fun than the non-interactive one. Obviously, if you have a simple query 
+> The interactive more is way more fun than the non-interactive one. Obviously, if you have a simple query you can get it done with non-interactive mode.
+
+    > C:\Users\aparashar>nslookup google.com
+    Server:  dns.hs.uab.edu
+    Address:  #.#
+    
+    >Non-authoritative answer:
+    Name:    google.com
+    Addresses:  2607:f8b0:4002:c02::71
+              2607:f8b0:4002:c02::8b
+              2607:f8b0:4002:c02::66
+              108.177.122.138
+              108.177.122.102
+              108.177.122.139
+              108.177.122.101
+              108.177.122.113
+              108.177.122.100
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0NDQ4MjM4LC0xMDY0MDMxODUxXX0=
+eyJoaXN0b3J5IjpbLTE0NzMyNzM3MTUsLTEwNjQwMzE4NTFdfQ
+==
 -->
