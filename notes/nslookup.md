@@ -102,8 +102,7 @@
 >### query
 >This displays information regarding processes, sessions, and Remote Desktop Session Host servers. For e.g
 
-    > query=mx
-    > cloudns.net
+    >C:\Users\ap.........>nslookup -query=mx cloudns.net
         Server:  $.$.$.$
         Address:  #.#.#.#
     
@@ -114,8 +113,11 @@
     cloudns.net     MX preference = 10, mail exchanger = ALT4.ASPMX.L.GOOGLE.COM
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
+
+>### Debug
+>Debug is another one which is quite helpful.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDUxMTQwOSwtMTk5NDEyMDIwMCwtMT
+eyJoaXN0b3J5IjpbMTUxNDI5MDQ5MiwtMTk5NDEyMDIwMCwtMT
 ExNDUwMzQ3NCw1MzUwNjc5NjksNzE1NTQ0NTcwLDEzMTg0NTI3
 MzEsLTEwNzAzMDk3NzksLTEwNjQwMzE4NTFdfQ==
 -->
