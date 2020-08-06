@@ -34,9 +34,16 @@
  >Lets try some fun ones out
  
  >### ls 
- >Well ls pretty much does the exact thing i
+ >Well ls pretty much does the exact thing it does on linux system but with a twist.
+ >Once you go interactive by typing
+ 
 
+    C:\Users\a..........r>nslookup 
+        Server:  $.$.$.$
+        Address:  #.#.#.#
+     >
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjc5NjE1LC0xMDcwMzA5Nzc5LC0xMD
-Y0MDMxODUxXX0=
+eyJoaXN0b3J5IjpbLTEwMjM0MDM3OSwtMTA3MDMwOTc3OSwtMT
+A2NDAzMTg1MV19
 -->
