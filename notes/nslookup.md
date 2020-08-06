@@ -61,21 +61,23 @@
     >set type=MX 
 >This will set the type of record we are looking for which in the above case is mail exchanger.
 >after this you can query the DNS server with ip or domain and it will return only the specific related record. For e.g
-> set type=A
-> google.com
-Server:  dns.hs.uab.edu
-Address:  10.22.120.30
 
-    Non-authoritative answer:
-    Name:    google.com
-    Addresses:  108.177.122.113
-              108.177.122.100
-              108.177.122.101
-              108.177.122.138
-              108.177.122.139
-              108.177.122.102
+    > set type=A
+    > google.com
+        Server:  $.$.$.$
+        Address:  #.#.#.#
+    
+        Non-authoritative answer:
+        Name:    google.com
+        Addresses:  108.177.122.113
+                  108.177.122.100
+                  108.177.122.101
+                  108.177.122.138
+                  108.177.122.139
+                  108.177.122.102
+>preety cool right !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTM4NzE4OSwxMzE4NDUyNzMxLC0xMD
+eyJoaXN0b3J5IjpbMTUyNzk3NTc2OSwxMzE4NDUyNzMxLC0xMD
 cwMzA5Nzc5LC0xMDY0MDMxODUxXX0=
 -->
