@@ -8,9 +8,9 @@
 > - Interactive 
 > - non-interactive
 > 
-> The interactive more is way more fun than the non-interactive one. Obviously, if you have 
+> The interactive more is way more fun than the non-interactive one. Obviously, if you have a simple query 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQwMzE4NTFdfQ==
+eyJoaXN0b3J5IjpbMjk0NDQ4MjM4LC0xMDY0MDMxODUxXX0=
 -->
