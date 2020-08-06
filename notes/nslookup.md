@@ -28,7 +28,7 @@
                   108.177.122.100
 
 > But why be non-interactive when interaction is so much fun.
-> To be i
+> To be interactive Type a hyphen (-) then your chosen parameter and then the name or IP address.
 >Microsoft docs provide all the functionalities we can achieve with nslookup.
 >[Microsoft Nslookup Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup)
  
@@ -93,7 +93,7 @@
     cloudns.net     MX preference = 5, mail exchanger = ALT2.ASPMX.L.GOOGLE.COM
 >Here we are checking the MX records of the mail servers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTc0NzUwMywtMTExNDUwMzQ3NCw1Mz
-UwNjc5NjksNzE1NTQ0NTcwLDEzMTg0NTI3MzEsLTEwNzAzMDk3
-NzksLTEwNjQwMzE4NTFdfQ==
+eyJoaXN0b3J5IjpbLTE4NTQ1OTk3MTQsLTExMTQ1MDM0NzQsNT
+M1MDY3OTY5LDcxNTU0NDU3MCwxMzE4NDUyNzMxLC0xMDcwMzA5
+Nzc5LC0xMDY0MDMxODUxXX0=
 -->
