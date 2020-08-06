@@ -124,9 +124,9 @@
 >This command uses the current default server to look up the information about the specified DSN domain.
 
 >### ls
->ls just 
+>ls just provides in formation about the DNS.
 >Try some out and you will find nslookup to be a really handy tool in your arsenal.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzkyNjM0XX0=
+eyJoaXN0b3J5IjpbLTEyMjg5MzU4MTFdfQ==
 -->
