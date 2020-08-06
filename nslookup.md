@@ -27,27 +27,32 @@ Nslookup is a window based utility and can be launched in two modes.</p>
 <p>The interactive is way more fun than the non-interactive one. Obviously, if you have a simple query you can get it done with non-interactive mode for e.g</p>
 </blockquote>
 <pre><code>C:\Users\a..........r&gt;nslookup google.com
-    Server:  $.$.$.$
+Server:  $.$.$.$
     Address:  #.#.#.#
-</code>
-Name:    <a href="http://google.com">google.com</a><br>
-<pre><code>Addresses:  2607:f8b0:4002:c02::71&lt;br&gt;
+<
+Nae:Name: a href="http://google.com">google.com</a><br>
+<pre><code>
+    Addresses:  2607:f8b0:4002:c02::71&lt;br&gt;
 </code></pre>
-</pre><p>2607:f8b0:4002:c02::8b<br><br>
+</pre><p><br>
+2607:f8b0:4002:c02::8b<br><br>
 2607:f8b0:4002:c02::66<br><br>
 108.177.122.138<br><br>
 108.177.122.102<br><br>
 108.177.122.139<br><br>
 108.177.122.101<br><br>
 108.177.122.113<br></p>
-<pre><code>          108.177.122.138
-      108.177.122.102
+<pre><code>
+108.177.122.138
+  108.177.122.102
       108.177.122.139
-      108.177.122.101
-      108.177.122.113
-      108.177.122.100&lt;br&gt;
+  108.177.122.101
+  108.177.122.113
+  108.177.122.100&lt;br&gt;
 </code></pre>
-<p>108.177.122.100</p>
+<p<br>
+
+</code>108.177.122.100</p>
 <blockquote>
 <p>But why be non-interactive when interaction is so much fun.<br>
 To be interactive Type a hyphen (-) then your chosen parameter and then the name or IP address.<br>
@@ -65,29 +70,35 @@ Microsoft docs provide all the functionalities we can achieve with nslookup.<br>
 Default Server:  (null)
 </code></pre><p>
 Set options:<br>
-nodebugdefname<br>
+nodebdefna<br>
 search<br>
-</p><p>recurse<br><br>
+</p><p>
+  recurse<br><br>
 nod2<br><br>
 novc<br></p>
 <p>nod2<br>
+
+
+  nod2
 noignoretc<br><br>
-port=53type=A+AAAA<br><br>
-class=IN timeout=2<br></p>
-<p>retry=1<br><br>
+port=type=A+AAAA<br><br>
+class= timeout=2<br></p>
+<p>
+
+  retry=1<br><br>
 <a href="http://
   root=A.ROOT-SERVERS.NET">root=A.ROOT-SERVERS.NET</a>.<br><br>
 <a href="http://domain=xx.xxx.xxx">domain=xx.xxx.xxx</a><br><br>
 MSxfr<br><br>
 IXFRversion=1<br><br>
-srchlist=xxxx/xxxxx/xxxxxxx<br></p>
+srchlist=xxxx/xxxxx/xxxxxxx<br>
+</p>
 
 <blockquote>
 <h3 id="type">-Type</h3>
 <p>If you are looking for a specific record type in DNS, you can set it with the following</p>
 </blockquote>
-<pre><code>C:\Users\ap.........&gt;nslookup -type=A  google.com
-</code></pre>
+<pre><code>C:\Users\ap.........&gt;nslookup -type=A  google.com<></p>
 <blockquote>
 <p>This will set the type of record we are looking for which in the above case is mail exchanger.<br>
 after this you can query the DNS server with ip or domain and it will return only the specific related record. For e.g</p>
@@ -96,7 +107,7 @@ after this you can query the DNS server with ip or domain and it will return onl
     Server:  $.$.$.$
     Address:  #.#.#.#
 </code><pre><code>Non-authoritative answer:
-Name:    google.comAddresses:  108.177.122</code></pre>
+Name:    google.comAddresses:  108.177.122</</code></pre>
 </pre><p></p>
 <blockquote>
 <p>preety cool right !<br>
@@ -128,5 +139,6 @@ Below are all the records type you can look for with nslookup.</p>
     Server:  $.$.$.$
     Address:  #.#.#.#
 </code></pre><p>
-Non-authoritative answer:<br>
-</p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0OTI0MDM1NF19
+-->
