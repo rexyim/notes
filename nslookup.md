@@ -5,6 +5,8 @@
 
 <hr>
 <hr>
+<hr>
+<hr>
 <blockquote>
 <h1 id="nslookup">NSLOOKUP</h1>
 </blockquote>
@@ -27,26 +29,25 @@ Nslookup is a window based utility and can be launched in two modes.</p>
 <pre><code>C:\Users\a..........r&gt;nslookup google.com
     Server:  $.$.$.$
     Address:  #.#.#.#
-</code></pNon-authoritative answer:<br>
+</code>
 Name:    <a href="http://google.com">google.com</a><br>
-
-    Addresses:  2607:f8b0:4002:c02::71<br>
-2607:f8b0:4002:c02::8b<br>
-2607:f8b0:4002:c02::66<br>
-108.177.122.138<br>
-108.177.122.102<br>
-108.177.122.139<br>
-108.177.122.101<br>
-108.177.122.113<br>
-
-              108.177.122.138
-          108.177.122.102
-          108.177.122.139
-          108.177.122.101
-          108.177.122.113
-          108.177.122.100<br>
-
-</code>108.177.122.100</p>
+<pre><code>Addresses:  2607:f8b0:4002:c02::71&lt;br&gt;
+</code></pre>
+</pre><p>2607:f8b0:4002:c02::8b<br><br>
+2607:f8b0:4002:c02::66<br><br>
+108.177.122.138<br><br>
+108.177.122.102<br><br>
+108.177.122.139<br><br>
+108.177.122.101<br><br>
+108.177.122.113<br></p>
+<pre><code>          108.177.122.138
+      108.177.122.102
+      108.177.122.139
+      108.177.122.101
+      108.177.122.113
+      108.177.122.100&lt;br&gt;
+</code></pre>
+<p>108.177.122.100</p>
 <blockquote>
 <p>But why be non-interactive when interaction is so much fun.<br>
 To be interactive Type a hyphen (-) then your chosen parameter and then the name or IP address.<br>
@@ -66,24 +67,21 @@ Default Server:  (null)
 Set options:<br>
 nodebugdefname<br>
 search<br>
-
-  recurse<br>
-nod2<br>
-novc<br>
-
-  nod2
- noignoretc<br>
-port=53type=A+AAAA<br>
-class=IN timeout=2<br>
-
-  retry=1<br>
+</p><p>recurse<br><br>
+nod2<br><br>
+novc<br></p>
+<p>nod2<br>
+noignoretc<br><br>
+port=53type=A+AAAA<br><br>
+class=IN timeout=2<br></p>
+<p>retry=1<br><br>
 <a href="http://
-  root=A.ROOT-SERVERS.NET">root=A.ROOT-SERVERS.NET</a>.<br>
-<a href="http://domain=xx.xxx.xxx">domain=xx.xxx.xxx</a><br>
-MSxfr<br>
-IXFRversion=1<br>
-srchlist=xxxx/xxxxx/xxxxxxx<br>
-</p>
+  root=A.ROOT-SERVERS.NET">root=A.ROOT-SERVERS.NET</a>.<br><br>
+<a href="http://domain=xx.xxx.xxx">domain=xx.xxx.xxx</a><br><br>
+MSxfr<br><br>
+IXFRversion=1<br><br>
+srchlist=xxxx/xxxxx/xxxxxxx<br></p>
+
 <blockquote>
 <h3 id="type">-Type</h3>
 <p>If you are looking for a specific record type in DNS, you can set it with the following</p>
@@ -98,7 +96,7 @@ after this you can query the DNS server with ip or domain and it will return onl
     Server:  $.$.$.$
     Address:  #.#.#.#
 </code><pre><code>Non-authoritative answer:
-Name:    google.comAddresses:  108.177.122</pre>
+Name:    google.comAddresses:  108.177.122</code></pre>
 </pre><p></p>
 <blockquote>
 <p>preety cool right !<br>
@@ -131,45 +129,4 @@ Below are all the records type you can look for with nslookup.</p>
     Address:  #.#.#.#
 </code></pre><p>
 Non-authoritative answer:<br>
-<a hrehttp://cloudns.net">cloudns.net</a>     MX preference = 10, mail exchanger = <a href="http://ALT3.ASPMX.L.GOOGLE.COM">ALT3.ASPMX.L.GOOGLE.COM</a><br>
-<a href="http://cloudns.net">cloudns.net</a>     MX preference = 1, mail exchanger = <a href="http://ASPMX.L.GOOGLE.COM">ASPMX.L.GOOGLE.COM</a><br>
-<a href="http://cloudns.net">cloudns.net</a>
-cloudns.net     MX preference = 5, mail exchanger = <a href="http://ALT1.ASPMX.L.GOOGLE.COM">ALT1.ASPMX.L.GOOGLE.COM</a><br>
-<a href="http://cloudns.net">cloudns.net</a>
-cloudns.net     MX preference = 10, mail exchanger = <a href="http://ALT4.ASPMX.L.GOOGLE.COM">ALT4.ASPMX.L.GOOGLE.COM</a><br>
-<a href="http://cloudns.net">cloudns.net</a>     MX preference = 5, mail exchanger = <a href="http://ALT2.ASPMX.L.GOOGLE.COM">ALT2.ASPMX.L.GOOGLE.COM</a><br>
 </p>
-<blockquote>
-<p>Here we are checking the MX records of the mail servers.</p>
-</blockquote>
-<blockquote>
-<h3 id="debug">-Debug</h3>
-<p>Debug is another one which is quite helpful. By turning debug mode on you can view more information about the packet sent to the server and the resulting answer.</p>
-</blockquote>
-<blockquote>
-<h3 id="server">server</h3>
-<p>This command uses the current default server to look up the information about the specified DSN domain.<br>
-C:\Users\ap…&gt;nslookup server  or </p>
-</blockquote>
-<blockquote>
-<h3 id="ls">ls</h3>
-<p>ls just provides in formation about the DNS.</p>
-</blockquote>
-<pre><code>&gt;C:\Users\ap.........&gt;nslookup ls [&lt;option&gt;] &lt;DNSdomain&gt;
-</code></pre><p>
-The valid options include:</p>
-<ul>
-<li><strong>-t:</strong>  Lists all records of the specified type. For more information, see  <a href="(https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup-set-querytype">nslookup set querytype</a>.</li>
-<li><strong>-a:</strong>  Lists aliases of computers in the DNS domain. This parameter is the same as  <strong>-t CNAME</strong></li>
-<li><strong>-d:</strong>  Lists all records for the DNS domain. This parameter is the same as  <strong>-t ANY</strong></li>
-<li><strong>-h:</strong>  Lists CPU and operating system information for the DNS domain. This parameter is the same as  <strong>-t HINFO</strong></li>
-<li><strong>-s:</strong>  Lists well-known services of computers in the DNS domain. This parameter is the same as  <strong>-t WKS</strong>.<br>
-</li>
-</ul>
-<blockquote>
-<p>Try some out and you will find nslookup to be a really handy tool in your arsenal.</p>
-</blockquote>
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTY1OTI4XX0=
--->
