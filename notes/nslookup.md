@@ -76,8 +76,9 @@
                   108.177.122.139
                   108.177.122.102
 >preety cool right !
-
+>Below are all the records type you
+>###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzk3NTc2OSwxMzE4NDUyNzMxLC0xMD
+eyJoaXN0b3J5IjpbLTYyNzM0MTQ2NiwxMzE4NDUyNzMxLC0xMD
 cwMzA5Nzc5LC0xMDY0MDMxODUxXX0=
 -->
