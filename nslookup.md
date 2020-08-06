@@ -8,7 +8,9 @@
 </blockquote>
 <blockquote>
 <p>At its core nslookup is a tool used to gain information from DNS server.<br>
-Before you even play with nslookup you need to understand DNS and how exactly it works. The following link will give you a brief understanding of DNS.<br>
+Before you even play with nslookup you need to understand DNS and how exactly it works. The following link will give you a brief understanding of DNS.
+<a href="https://www.cloudflare.com/learning/dns/what-is-dns/">DNS</a>
+<br>
 Nslookup is a window based utility and can be launched in two modes.</p>
 </blockquote>
 <blockquote>
@@ -161,3 +163,6 @@ The valid options include:
 <p>Try some out and you will find nslookup to be a really handy tool in your arsenal.</p>
 </blockquote>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzNjY1MTMxNTFdfQ==
+-->
