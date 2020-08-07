@@ -1,7 +1,7 @@
 
 
 
-># DIG
+># DIG and HOST
 >Dig is linux/unix based command line utility which queries the DNS server for domain related records. It can be viewed as nslookup equivalent for linux environment.
 
 >It is important to understand the output of a dig command.
@@ -32,7 +32,7 @@
     ;; SERVER: 127.0.0.53#53(127.0.0.53)
     ;; WHEN: Thu Aug 06 21:21:54 CDT 2020
     ;; MSG SIZE  rcvd: 135
->the first thing we notice is that unlike nslookup, dig doesn't provide us any details regarding the our own dns server's ip address or domain name. If we want to know our own dns server's ip address. we need to see the resolve.conf file or we can call another linux utility **host**.
+>the first thing we notice is that unlike nslookup, dig doesn't provide us any details regarding the our own dns server's ip address or domain name. If we want to know our own dns server's ip address. we need to see the resolve.conf file.
 >The output also shows the current version of the dig utility.
 
     <<>> DiG 9.16.1-Ubuntu <<>> google.com
@@ -70,7 +70,12 @@ We can shorten the length answer by using *+short* flag.
 
 >There are a whole lot of other options we can try. The dig man page has all the ways the utility can be utilized.
 
+ 
+># Host
+> host is a simple utility for performing DNS lookups. It is normally used to convert names to IP addresses and vice versa.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MzM4NTk1LDE5MjA3MzAzNzUsMTI5MD
-I5ODEyLC00NTE0NTUxNjEsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbNjE0Nzk0NTc3LDU5OTMzODU5NSwxOTIwNz
+MwMzc1LDEyOTAyOTgxMiwtNDUxNDU1MTYxLDIwNDAyOTc2MjJd
+fQ==
 -->
