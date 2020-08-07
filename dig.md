@@ -46,8 +46,22 @@ We can shorten the length answer by using *+short* flag.
     172.253.124.101
     172.253.124.100
     172.253.124.138
-   >With dig i can query for any record whi
+   >With dig i can query for any record by just specifying it the following way
+   
+
+    *get the address(es) for yahoo.com*
+    dig yahoo.com A +noall +answer
+    
+     *get a list of yahoo's mail servers*
+    dig yahoo.com MX +noall +answer
+    
+     *get a list of DNS servers authoritative for yahoo.com*
+    dig yahoo.com NS +noall +answer
+    
+     *get all of the above*
+    dig yahoo.com ANY +noall +answer
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzYwMjA4NCwxMjkwMjk4MTIsLTQ1MT
+eyJoaXN0b3J5IjpbLTU4Mzk0MTA5OCwxMjkwMjk4MTIsLTQ1MT
 Q1NTE2MSwyMDQwMjk3NjIyXX0=
 -->
