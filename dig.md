@@ -32,7 +32,7 @@
     ;; SERVER: 127.0.0.53#53(127.0.0.53)
     ;; WHEN: Thu Aug 06 21:21:54 CDT 2020
     ;; MSG SIZE  rcvd: 135
->the first thing we notice is that unlike nslookup, dig doesn't provide us any details regarding the our own dns server's ip address or domain name. If we want to know our own dns server's ip address. we need to see the resolve.conf file.
+>the first thing we notice is that unlike nslookup, dig doesn't provide us any details regarding the our own dns server's ip address or domain name. If we want to know our own dns server's ip address. we need to see the resolve.conf file or we can call another linux utility **host**.
 >The output also shows the current version of the dig utility.
 
     <<>> DiG 9.16.1-Ubuntu <<>> google.com
@@ -71,6 +71,6 @@ We can shorten the length answer by using *+short* flag.
 >There are a whole lot of other options we can try. The dig man page has all the ways the utility can be utilized.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjI2Mjg0NywxOTIwNzMwMzc1LDEyOT
-AyOTgxMiwtNDUxNDU1MTYxLDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbNTk5MzM4NTk1LDE5MjA3MzAzNzUsMTI5MD
+I5ODEyLC00NTE0NTUxNjEsMjA0MDI5NzYyMl19
 -->
