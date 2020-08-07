@@ -75,11 +75,12 @@ We can shorten the length answer by using *+short* flag.
 > host is also a simple utility for performing DNS lookups. It is normally used to convert names to IP addresses and vice versa.
 >The usage is 
 
-    a8888@Ubuntu-20:~$ host -h
+    a*******@Ubuntu-20:~$ host 
     host: illegal option -- h
     Usage: host [-aCdilrTvVw] [-c class] [-N ndots] [-t type] [-W time]
                 [-R number] [-m flag] hostname [server]
-    aparashar@Ubuntu-20:~$ host -t A  google.com 
+                
+    a*******@Ubuntu-20:~$ host -t A  google.com 
     google.com has address 64.233.177.113
     google.com has address 64.233.177.102
     google.com has address 64.233.177.139
@@ -89,7 +90,7 @@ We can shorten the length answer by using *+short* flag.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTE5MDE3Myw1OTkzMzg1OTUsMTkyMD
+eyJoaXN0b3J5IjpbMTQ0MjE4MTk1OCw1OTkzMzg1OTUsMTkyMD
 czMDM3NSwxMjkwMjk4MTIsLTQ1MTQ1NTE2MSwyMDQwMjk3NjIy
 XX0=
 -->
