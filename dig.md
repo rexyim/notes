@@ -62,8 +62,14 @@ We can shorten the length answer by using *+short* flag.
     dig yahoo.com ANY 
 
 >### Reverse Lookup
->
+>Use the `-x` option to lookup the main hostname associated with an IP address thats it.
+
+    >a*******@Ubuntu-20:~$ dig -x 64.233.177.113 +short
+    yx-in-f113.1e100.net.
+
+
+>There are a whole lot of other options we can try. The dig man page has all the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDczMDM3NSwxMjkwMjk4MTIsLTQ1MT
-Q1NTE2MSwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTc5ODEyNjE2MywxOTIwNzMwMzc1LDEyOT
+AyOTgxMiwtNDUxNDU1MTYxLDIwNDAyOTc2MjJdfQ==
 -->
