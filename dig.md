@@ -32,8 +32,8 @@
     ;; SERVER: 127.0.0.53#53(127.0.0.53)
     ;; WHEN: Thu Aug 06 21:21:54 CDT 2020
     ;; MSG SIZE  rcvd: 135
->the first thing we notice is that unlike nslookup, dig doesn't provide us any details regarding the our own dns server's ip address or domain name. If we want to know our own dns server's ip address. we need t
+>the first thing we notice is that unlike nslookup, dig doesn't provide us any details regarding the our own dns server's ip address or domain name. If we want to know our own dns server's ip address. we need to see the resolve.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDY1Njk3OCwxMjkwMjk4MTIsLTQ1MT
+eyJoaXN0b3J5IjpbLTk2NTA4MzE2NSwxMjkwMjk4MTIsLTQ1MT
 Q1NTE2MSwyMDQwMjk3NjIyXX0=
 -->
