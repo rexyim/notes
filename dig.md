@@ -68,8 +68,9 @@ We can shorten the length answer by using *+short* flag.
     yx-in-f113.1e100.net.
 
 
->There are a whole lot of other options we can try. The dig man page has all the 
+>There are a whole lot of other options we can try. The dig man page has all the ways the utility can be utilized.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODEyNjE2MywxOTIwNzMwMzc1LDEyOT
+eyJoaXN0b3J5IjpbLTgyMjI2Mjg0NywxOTIwNzMwMzc1LDEyOT
 AyOTgxMiwtNDUxNDU1MTYxLDIwNDAyOTc2MjJdfQ==
 -->
