@@ -37,8 +37,17 @@
 
     <<>> DiG 9.16.1-Ubuntu <<>> google.com
 
-We can shorten the length answer by using *+short*
+We can shorten the length answer by using *+short* flag.
+
+    a********@Ubuntu-20:~$ dig google.com +short
+    172.253.124.139
+    172.253.124.102
+    172.253.124.113
+    172.253.124.101
+    172.253.124.100
+    172.253.124.138
+And the 261
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAzMjEzMzksMTI5MDI5ODEyLC00NT
-E0NTUxNjEsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbLTI0MzgwNTM1NiwxMjkwMjk4MTIsLTQ1MT
+Q1NTE2MSwyMDQwMjk3NjIyXX0=
 -->
