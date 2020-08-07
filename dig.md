@@ -72,10 +72,10 @@ We can shorten the length answer by using *+short* flag.
 
  
 ># Host
-> host is a simple utility for performing DNS lookups. It is normally used to convert names to IP addresses and vice versa.
+> host is also a simple utility for performing DNS lookups. It is normally used to convert names to IP addresses and vice versa.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0Nzk0NTc3LDU5OTMzODU5NSwxOTIwNz
-MwMzc1LDEyOTAyOTgxMiwtNDUxNDU1MTYxLDIwNDAyOTc2MjJd
-fQ==
+eyJoaXN0b3J5IjpbMTE3MDkzMzAyOCw1OTkzMzg1OTUsMTkyMD
+czMDM3NSwxMjkwMjk4MTIsLTQ1MTQ1NTE2MSwyMDQwMjk3NjIy
+XX0=
 -->
