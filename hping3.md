@@ -113,8 +113,9 @@ hping3 provides lots of options all can be viewed by -h.
 > So why hping3 is so useful ?
 > so imagine a scenario where the device you are trying to enumerate is not responsive to icmp.  With hping3 we can send spl packets to specific or all ports to enumerate the device.
 
-Here are some examples of h
+>Here are some basic usage of hping3
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA0NTg3MDYsLTMyMzU2OTk2OCwtMT
-c5NTgyMjExMF19
+eyJoaXN0b3J5IjpbLTIyNzgyOTIzNywtMTc3MDQ1ODcwNiwtMz
+IzNTY5OTY4LC0xNzk1ODIyMTEwXX0=
 -->
