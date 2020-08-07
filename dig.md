@@ -50,18 +50,20 @@ We can shorten the length answer by using *+short* flag.
    
 
     *get the address(es) for yahoo.com*
-    dig yahoo.com A +noall +answer
+    dig yahoo.com A 
     
      *get a list of yahoo's mail servers*
-    dig yahoo.com MX +noall +answer
+    dig yahoo.com MX 
     
      *get a list of DNS servers authoritative for yahoo.com*
-    dig yahoo.com NS +noall +answer
+    dig yahoo.com NS 
     
      *get all of the above*
-    dig yahoo.com ANY +noall +answer
+    dig yahoo.com ANY 
 
+>### Reverse Lookup
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mzk0MTA5OCwxMjkwMjk4MTIsLTQ1MT
+eyJoaXN0b3J5IjpbMTkyMDczMDM3NSwxMjkwMjk4MTIsLTQ1MT
 Q1NTE2MSwyMDQwMjk3NjIyXX0=
 -->
