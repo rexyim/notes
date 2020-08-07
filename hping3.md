@@ -126,10 +126,16 @@ hping3 provides lots of options all can be viewed by -h.
 >Lets try a UDP scan now.
 
     ~$ sudo hping3 -2 192.168.10.1 -p 53
--p flag specifies the port number. We can even specify a range like
+>-p flag specifies the port number. We can even specify a range like
+
     ~$ sudo hping3 -2 192.168.10.1 -p 21-90
+
+>or different ports
+
+    ~$ sudo hping3 -2 192.168.10.1 -p 53,123
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0OTAzMzIsNjgwMDkxNzQ4LC0yMjc4Mj
+eyJoaXN0b3J5IjpbMjM3NjQxNzMsNjgwMDkxNzQ4LC0yMjc4Mj
 kyMzcsLTE3NzA0NTg3MDYsLTMyMzU2OTk2OCwtMTc5NTgyMjEx
 MF19
 -->
