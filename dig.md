@@ -46,8 +46,8 @@ We can shorten the length answer by using *+short* flag.
     172.253.124.101
     172.253.124.100
     172.253.124.138
-And the 261
+   >With dig i can query for any record which i could 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzgwNTM1NiwxMjkwMjk4MTIsLTQ1MT
+eyJoaXN0b3J5IjpbMTk0NTExOTY1NSwxMjkwMjk4MTIsLTQ1MT
 Q1NTE2MSwyMDQwMjk3NjIyXX0=
 -->
