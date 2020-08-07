@@ -114,8 +114,16 @@ hping3 provides lots of options all can be viewed by -h.
 > so imagine a scenario where the device you are trying to enumerate is not responsive to icmp.  With hping3 we can send spl packets to specific or all ports to enumerate the device.
 
 >Here are some basic usage of hping3
->
+>Lets start with basic ping scan
+
+    >~$ sudo hping3 -1 google.com
+    >HPING google.com (ens33 172.253.124.139): icmp mode set, 28 headers + 0 data bytes
+    len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=0 rtt=36.0 ms
+    len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=1 rtt=27.0 ms
+    len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=2 rtt=26.0 ms
+    len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=3 rtt=25.0 ms
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzgyOTIzNywtMTc3MDQ1ODcwNiwtMz
-IzNTY5OTY4LC0xNzk1ODIyMTEwXX0=
+eyJoaXN0b3J5IjpbNjgwMDkxNzQ4LC0yMjc4MjkyMzcsLTE3Nz
+A0NTg3MDYsLTMyMzU2OTk2OCwtMTc5NTgyMjExMF19
 -->
