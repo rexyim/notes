@@ -123,9 +123,10 @@ hping3 provides lots of options all can be viewed by -h.
     len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=2 rtt=26.0 ms
     len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=3 rtt=25.0 ms
 
-Lets try a UDP sca
+>Lets try a UDP scan now.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1MTc0MjUyLDY4MDA5MTc0OCwtMjI3OD
+eyJoaXN0b3J5IjpbOTU4ODc2ODY2LDY4MDA5MTc0OCwtMjI3OD
 I5MjM3LC0xNzcwNDU4NzA2LC0zMjM1Njk5NjgsLTE3OTU4MjIx
 MTBdfQ==
 -->
