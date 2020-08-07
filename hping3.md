@@ -133,9 +133,9 @@ hping3 provides lots of options all can be viewed by -h.
 >or different ports
 
     ~$ sudo hping3 -2 192.168.10.1 -p 53,123
-
+hpin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NjQxNzMsNjgwMDkxNzQ4LC0yMjc4Mj
-kyMzcsLTE3NzA0NTg3MDYsLTMyMzU2OTk2OCwtMTc5NTgyMjEx
-MF19
+eyJoaXN0b3J5IjpbMTI0MDYxMTEzNiw2ODAwOTE3NDgsLTIyNz
+gyOTIzNywtMTc3MDQ1ODcwNiwtMzIzNTY5OTY4LC0xNzk1ODIy
+MTEwXX0=
 -->
