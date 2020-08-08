@@ -17,8 +17,8 @@ hping3 can handle fragmentation, arbitrary packets body and size and can be used
 <li>Test net performance using different protocols,<br>
 packet size, TOS (type of service) and fragmentation.</li>
 <li>Path MTU discovery</li>
-<li>Transferring files between even really fascist firewall<br>
-rules.</li>
+<li>Transferring files between even really fascist firewall<br>  
+rules.</l
 <li>Traceroute-like under different protocols.</li>
 <li>Firewalk-like usage.</li>
 <li>Remote OS fingerprinting.</li>
@@ -131,19 +131,22 @@ len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=2 rtt=26.0 ms
 len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=3 rtt=25.0 ms
 </code></pre>
 <blockquote>
-<p>For UDP scan you can switch out 1 with 2 now.</p>
+<p
+>For UDP scan you can switch out 1 with 2 now.</p>
 </blockquote>
 <pre><code>~$ sudo hping3 -2 192.168.10.1 -p 53
 </code></pre>
 <blockquote>
 <p>-p flag specifies the port number. We can even specify a range like</p>
 </blockquote>
-<pre><code>~$ sudo hping3 -2 192.168.10.1 -p 21-90
+<pre><code>
+
+  ~$ sudo hping3 -2 192.168.10.1 -p 21-90
 </code></pre>
 <blockquote>
 <p>or different ports</p>
 </blockquote>
-<pre><code>~$ sudo hping3 -2 192.168.10.1 -p 53,123
+<pre><code>  ~$ sudo hping3 -2 192.168.10.1 -p 53,123
 </code></pre>
 <blockquote>
 <p>hping3 can also perform the basic scans</p>
@@ -162,7 +165,7 @@ len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=3 rtt=25.0 ms
 <blockquote>
 <p>and address spoofing can be achieve by <em><strong>-a</strong></em> flag</p>
 </blockquote>
-<pre><code>&gt; sudo hping3 -S &lt;target ip&gt; -a &lt;spoofed ip&gt; -c 3
+<pre><code>&gt; sudo hping3 -S &lt;target ip&gt; -a &lt;spoofed ip&gt;> -c 3
 </code></pre>
 <blockquote>
 <p>if you notice the <em><strong>-c</strong></em>  flag that actually sets the number of prob packets you want to send. An excellent feature if you want to keep your activity quite.</p>
@@ -183,3 +186,6 @@ round-trip min/avg/max = 22.0/23.0/23.9 ms
 <p>I say ditch the old plain icmp and get on the hping3 train.</p>
 </blockquote>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI3NjQyNTA0Nl19
+-->
