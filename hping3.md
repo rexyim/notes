@@ -160,10 +160,13 @@ hping3 provides lots of options all can be viewed by -h.
     3 packets transmitted, 3 packets received, 0% packet loss
     round-trip min/avg/max = 22.0/23.0/23.9 ms
 
-> hping3 is a great 
+> hping3 is a great tool to have at your disposal and provide numerous other options  than what i have mentioned here. 
+> By passing the ***-h*** flag you will get all hping3 has to offer.
+
+> I say di
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDQ4MjE1OSwyMzc2NDE3MywxMjQwNj
-ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
-LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MDAyNjk3NjUsMjM3NjQxNzMsMTI0MD
+YxMTEzNiw2ODAwOTE3NDgsLTIyNzgyOTIzNywtMTc3MDQ1ODcw
+NiwtMzIzNTY5OTY4LC0xNzk1ODIyMTEwXX0=
 -->
