@@ -11,11 +11,14 @@
 
 >This is exactly what happens  with CSRF.  The candy  store can be your bank, the malicious attacker is the bad kid x and the secret phrase is your username and password for the bank website.
 
+>Imagine one day you, an unsuspecting bank user, also happened to be logged in to the bank website bank.com
 > The malicious attacker will send a an HTML e-mail including something like the following tag
 
     <img src="https://www.bank.com/transfer?amount=1000&amp;destination=malicious -attacker">
 > not just to you but 100s other bank customers.
->  If you have a web mail client that loads images automatically, which is practically every web mail client nowadays, the transfer request will be made from your browser using your IP address and _your example.com session cookies_, exactly as if you made the request yourself.
+>  If you have a web mail client that loads images automatically, which is practically every web mail client nowadays, the transfer request will be made from your browser using your IP address and _your bank.com session cookies_, exactly as if you made the request yourself.
+
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMTMzMTk1XX0=
+eyJoaXN0b3J5IjpbMzU3MzcwMDczXX0=
 -->
