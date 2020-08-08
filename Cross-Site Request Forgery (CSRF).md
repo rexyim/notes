@@ -7,7 +7,7 @@
 >So in the same spirit i am going to try explain CSRF like am explaining to a 5 year old.
 
 > Imagine that i am a regular customer to a candy store and the entry to the candy store can only be granted if you know the secret phrase that you need to tell the guard of the candy store.
->  
+> Now lets say a bad kid x not onl tricks you to reveal the secret phrase  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUyNTg5OTddfQ==
+eyJoaXN0b3J5IjpbLTEzODkwNjkyNjNdfQ==
 -->
