@@ -123,7 +123,7 @@ hping3 provides lots of options and all can be viewed by -h.
     len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=2 rtt=26.0 ms
     len=46 ip=172.253.124.139 ttl=108 id=0 icmp_seq=3 rtt=25.0 ms
 
->Lets try a UDP scan now.
+>For UDP scan you can switch out 1 with 2 now.
 
     ~$ sudo hping3 -2 192.168.10.1 -p 53
 >-p flag specifies the port number. We can even specify a range like
@@ -161,11 +161,12 @@ hping3 provides lots of options and all can be viewed by -h.
     round-trip min/avg/max = 22.0/23.0/23.9 ms
 
 > hping3 is a great tool to have at your disposal and provide numerous other options  than what i have mentioned here. 
+
 > I say ditch the old plain icmp and get on the hping3 train.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ4Mzc1MTgsMjM3NjQxNzMsMTI0MD
-YxMTEzNiw2ODAwOTE3NDgsLTIyNzgyOTIzNywtMTc3MDQ1ODcw
-NiwtMzIzNTY5OTY4LC0xNzk1ODIyMTEwXX0=
+eyJoaXN0b3J5IjpbLTU3MTM1NTM4MywyMzc2NDE3MywxMjQwNj
+ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
+LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
 -->
