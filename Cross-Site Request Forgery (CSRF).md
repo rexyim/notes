@@ -14,7 +14,8 @@
 > The malicious attacker will send a an HTML e-mail including something like the following tag
 
     <img src="https://www.bank.com/transfer?amount=1000&amp;destination=malicious -attacker">
-
+> not just to you but 100s other bank customers.
+>  If you have a web mail client that loads images automatically, which is practically every web mail client nowadays, the transfer request will be made from your browser using your IP address and _your example.com session cookies_, exactly as if you made the request yourself.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTIxOTMyMl19
+eyJoaXN0b3J5IjpbNjcwMTMzMTk1XX0=
 -->
