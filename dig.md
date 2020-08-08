@@ -4,8 +4,9 @@
 ---
 
 <blockquote>
-<h1 id="dig-and-host">DIG and HOST</h1>
-<p>Dig is linux/unix based command line utility which queries the DNS server for domain related records. It can be viewed as nslookup equivalent for linux environment.</p>
+<h1 id="dig-and-host">DIG and HOST>
+<p
+>Dig is linux/unix based command line utility which queries the DNS server for domain related records. It can be viewed as nslookup equivalent for linux environment.</p>
 </blockquote>
 <blockquote>
 <p>It is important to understand the output of a dig command.<br>
@@ -13,8 +14,7 @@ The following is a dig query of <a href="http://google.com">google.com</a>.</p>
 </blockquote>
 <pre><code>&gt;axxxxx@Ubuntu-20:~$ dig google.com
 
-; &lt;&lt;&gt;&gt; DiG 9.16.1-Ubuntu &lt;&lt;&gt;&gt; google.com
-;; global options: +cmd
+; &lt;&lt;&gt;&gt; DiG 9.16.1-Ubuntu &lt;&lt;&gt>;; global options: +cmd
 ;; Got answer:
 ;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 10815
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 1
@@ -38,17 +38,23 @@ google.com.		261	IN	A	64.233.177.100
 ;; MSG SIZE  rcvd: 135
 </code></pre>
 <blockquote>
-<p>the first thing we notice is that unlike nslookup, dig doesn’t provide us any details regarding the our own dns server’s ip address or domain name. If we want to know our own dns server’s ip address. we need to see the resolve.conf file in /etc.</p>
+<p>the first thing we notice is that unlike nslookup, dig doesn’t provide us any details regarding the our own dns servers ip address or domain name. If we want to know our own dns server’'s ip address. we need to see the resolve.conf file in /etc.</p>
 </blockquote>
 <blockquote>
-<p>The output also shows the current version of the dig utility.</p>
+<p
+
+>The output also shows the current version of the dig utility.</p>
 </blockquote>
 <pre><code>&lt;&lt;&gt;&gt; DiG 9.16.1-Ubuntu &lt;&lt;&gt;&gt; google.com
 </code></pre>
 <blockquote>
-<p>We can shorten the length of the out put  by using <em>+short</em> flag.</p>
+<puntu  google.com
+
+>We can shorten the length of the out put  by using <em>*+short</em>* flag.</p>
 </blockquote>
-<pre><code>a********@Ubuntu-20:~$ dig google.com +short
+<pre><code>
+
+    a********@Ubuntu-20:~$ dig google.com +short
 172.253.124.139
 172.253.124.102
 172.253.124.113
@@ -90,8 +96,8 @@ The usage is</p>
 host: illegal option -- h
 Usage: host [-aCdilrTvVw] [-c class] [-N ndots] [-t type] [-W time]
             [-R number] [-m flag] hostname [server]
-            
-a*******@Ubuntu-20:~$ host -t A  google.com 
+        
+    a*******@Ubuntu-20:~$ host -t A  google.com 
 google.com has address 64.233.177.113
 google.com has address 64.233.177.102
 google.com has address 64.233.177.139
@@ -100,3 +106,6 @@ google.com has address 64.233.177.138
 google.com has address 64.233.177.100
 </code></pre>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTIzODc2MjA5NV19
+-->
