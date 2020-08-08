@@ -17,8 +17,10 @@
     <img src="https://www.bank.com/transfer?amount=1000&amp;destination=malicious -attacker">
 > not just to you but 100s other bank customers.
 >  If you have a web mail client that loads images automatically, which is practically every web mail client nowadays, the transfer request will be made from your browser using your IP address and _your bank.com session cookies_, exactly as if you made the request yourself.
+>  Your browser just paid $1000 to the malicious attacker.
+>  And this could get much worse if the attacker can change the valid email or the password to your bank account website.
 
-> 
+> So in 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3MzcwMDczXX0=
+eyJoaXN0b3J5IjpbLTk2MjA4NDA1MV19
 -->
