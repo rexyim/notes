@@ -149,10 +149,11 @@ hping3 provides lots of options all can be viewed by -h.
 > and address spoofing can be achieve by ***-a*** flag
 
     > sudo hping3 -S <target ip> -a <spoofed ip> -c 3
-
+> if you notice the ***-c***  flag that actually sets the number of prob packets you want to send. An excellent feature if you want to keep your activity quite.
+>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTUyOTk3MSwyMzc2NDE3MywxMjQwNj
+eyJoaXN0b3J5IjpbLTM5OTIyMTIyNywyMzc2NDE3MywxMjQwNj
 ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
 LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
 -->
