@@ -11,7 +11,10 @@
 
 >This is exactly what happens  with CSRF.  The candy  store can be your bank, the malicious attacker is the bad kid x and the secret phrase is your username and password for the bank website.
 
-> The malicious attacker will send a 
+> The malicious attacker will send a an HTML e-mail including something like the following tag
+
+    <img src="https://www.bank.com/transfer?amount=1000&amp;destination=malicious -attacker">
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMjgyMzldfQ==
+eyJoaXN0b3J5IjpbMTI2MTIxOTMyMl19
 -->
