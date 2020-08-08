@@ -136,8 +136,19 @@ hping3 provides lots of options all can be viewed by -h.
  
  > hping3 can also perform the basic scans
 
+      -M  --setseq     set TCP sequence number
+      -L  --setack     set TCP ack
+      -F  --fin        set FIN flag
+      -S  --syn        set SYN flag
+      -R  --rst        set RST flag
+      -P  --push       set PUSH flag
+      -A  --ack        set ACK flag
+      -U  --urg        set URG flag
+      -X  --xmas       set X unused flag (0x40)
+      -Y  --ymas       set Y unused flag (0x80
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDE2NDg4MSwyMzc2NDE3MywxMjQwNj
+eyJoaXN0b3J5IjpbMTE3MDMxNDgyNiwyMzc2NDE3MywxMjQwNj
 ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
 LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
 -->
