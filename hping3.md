@@ -146,9 +146,10 @@ hping3 provides lots of options all can be viewed by -h.
       -U  --urg        set URG flag
       -X  --xmas       set X unused flag (0x40)
       -Y  --ymas       set Y unused flag (0x80
-
+> and address spoofing can be achieve by ***-a*** flag
+> sudo hping3 -s 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDMxNDgyNiwyMzc2NDE3MywxMjQwNj
-ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
-LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
+eyJoaXN0b3J5IjpbLTIwMzE2MDAxOTcsMjM3NjQxNzMsMTI0MD
+YxMTEzNiw2ODAwOTE3NDgsLTIyNzgyOTIzNywtMTc3MDQ1ODcw
+NiwtMzIzNTY5OTY4LC0xNzk1ODIyMTEwXX0=
 -->
