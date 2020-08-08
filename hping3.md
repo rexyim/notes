@@ -133,9 +133,11 @@ hping3 provides lots of options all can be viewed by -h.
 >or different ports
 
     ~$ sudo hping3 -2 192.168.10.1 -p 53,123
+ 
+ > hping3 can also perform the basic scans
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NjQxNzMsMTI0MDYxMTEzNiw2ODAwOT
-E3NDgsLTIyNzgyOTIzNywtMTc3MDQ1ODcwNiwtMzIzNTY5OTY4
-LC0xNzk1ODIyMTEwXX0=
+eyJoaXN0b3J5IjpbMTkxNDE2NDg4MSwyMzc2NDE3MywxMjQwNj
+ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
+LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
 -->
