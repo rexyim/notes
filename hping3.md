@@ -150,10 +150,20 @@ hping3 provides lots of options all can be viewed by -h.
 
     > sudo hping3 -S <target ip> -a <spoofed ip> -c 3
 > if you notice the ***-c***  flag that actually sets the number of prob packets you want to send. An excellent feature if you want to keep your activity quite.
->
+
+    >a********@Ubuntu-20:~$ sudo hping3 -1 www.google.com -c 3
+    HPING www.google.com (ens33 74.125.138.147): icmp mode set, 28 headers + 0 data bytes
+    len=46 ip=74.125.138.147 ttl=104 id=0 icmp_seq=0 rtt=23.9 ms
+    len=46 ip=74.125.138.147 ttl=104 id=0 icmp_seq=1 rtt=23.0 ms
+    len=46 ip=74.125.138.147 ttl=104 id=0 icmp_seq=2 rtt=22.0 ms
+        --- www.google.com hping statistic ---
+    3 packets transmitted, 3 packets received, 0% packet loss
+    round-trip min/avg/max = 22.0/23.0/23.9 ms
+
+> hping3 is a great 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTIyMTIyNywyMzc2NDE3MywxMjQwNj
+eyJoaXN0b3J5IjpbLTI5MDQ4MjE1OSwyMzc2NDE3MywxMjQwNj
 ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
 LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
 -->
