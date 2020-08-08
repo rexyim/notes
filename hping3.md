@@ -161,12 +161,11 @@ hping3 provides lots of options all can be viewed by -h.
     round-trip min/avg/max = 22.0/23.0/23.9 ms
 
 > hping3 is a great tool to have at your disposal and provide numerous other options  than what i have mentioned here. 
-> By passing the ***-h*** flag you will get all hping3 has to offer.
+> I say ditch the old plain icmp and get on the hping3 train.
 
-> I say di
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAyNjk3NjUsMjM3NjQxNzMsMTI0MD
-YxMTEzNiw2ODAwOTE3NDgsLTIyNzgyOTIzNywtMTc3MDQ1ODcw
-NiwtMzIzNTY5OTY4LC0xNzk1ODIyMTEwXX0=
+eyJoaXN0b3J5IjpbLTQ5NDE1MTY5NywyMzc2NDE3MywxMjQwNj
+ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
+LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
 -->
