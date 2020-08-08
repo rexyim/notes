@@ -3,7 +3,7 @@
 
 ># Cross-Site Request Forgery (CSRF)
 
-> Some times when i am reading a technical article or trying to understand a technical concept, i always which someone could explain to me like i am a 5 year old.
+> Some times when i am reading a technical article or trying to understand a technical concept, i always wish if someone could explain to me like i am a 5 year old.
 >So in the same spirit i am going to try explain CSRF like am explaining to a 5 year old.
 
 > Imagine that i am a regular customer to a candy store and the entry to the candy store can only be granted if you know the secret phrase that you need to tell the guard of the candy store.
@@ -20,7 +20,8 @@
 >  Your browser just paid $1000 to the malicious attacker.
 >  And this could get much worse if the attacker can change the valid email or the password to your bank account website.
 
-> So in 
+> So in plain simple words this is how CSRF works. Always be careful how you handle your emails. ;)
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjA4NDA1MV19
+eyJoaXN0b3J5IjpbLTEyOTQyMDAyMDhdfQ==
 -->
