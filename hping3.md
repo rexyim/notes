@@ -4,7 +4,7 @@
 > # HPING3
 
 > hping3 at its basic is a network tool which can be used to send custom TCP/IP packets and to display target replies like ping program does with ICMP replies.  So its an icmp but with a lot of bells and whistls. 
-> hping3 handle fragmentation, arbitrary packets body and size and can be used in order to transfer files encapsulated under supported protocols. Using hping3 you are able to perform at least the following stuff:
+> hping3 can handle fragmentation, arbitrary packets body and size and can be used in order to transfer files encapsulated under supported protocols. Using hping3 you are able to perform at least the following stuff:
 
 > - Test firewall rules  
 > - Advanced port scanning  
@@ -17,9 +17,9 @@ rules.
 > - Firewalk-like usage.  
 > - Remote OS fingerprinting.  
 > - TCP/IP stack auditing.  
-> - A lot of others.
 
-hping3 provides lots of options all can be viewed by -h.
+
+hping3 provides lots of options and all can be viewed by -h.
 
     root@kali:~# hping3 -h  
     usage: hping3 host [options]  
@@ -111,7 +111,7 @@ hping3 provides lots of options all can be viewed by -h.
     --apd-send Send the packet described with APD (see docs/APD.txt)
 
 > So why hping3 is so useful ?
-> so imagine a scenario where the device you are trying to enumerate is not responsive to icmp.  With hping3 we can send spl packets to specific or all ports to enumerate the device.
+>Imagine a scenario where the device you are trying to enumerate is not responsive to icmp.  With hping3 we can send spl packets to specific or all ports to enumerate the device. Pretty much to check if it is online.
 
 >Here are some basic usage of hping3
 >Lets start with basic ping scan
@@ -165,7 +165,7 @@ hping3 provides lots of options all can be viewed by -h.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDE1MTY5NywyMzc2NDE3MywxMjQwNj
-ExMTM2LDY4MDA5MTc0OCwtMjI3ODI5MjM3LC0xNzcwNDU4NzA2
-LC0zMjM1Njk5NjgsLTE3OTU4MjIxMTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NzQ4Mzc1MTgsMjM3NjQxNzMsMTI0MD
+YxMTEzNiw2ODAwOTE3NDgsLTIyNzgyOTIzNywtMTc3MDQ1ODcw
+NiwtMzIzNTY5OTY4LC0xNzk1ODIyMTEwXX0=
 -->
