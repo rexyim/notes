@@ -8,7 +8,8 @@
 
  > - Confidentiality (Encryption)  
  > - Digital signatures (Authentication)
-![enter image description here](https://drive.google.com/file/d/1GdKOAPLNp4IFJC846RynbhpCZA0g-0Ja/view?usp=sharing)
+ > 
+![PGP](https://drive.google.com/drive/u/2/folders/1PtHnS3Wx8mbdmOF3h0JdkmGe92ao8YXm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODM5MjU1OV19
+eyJoaXN0b3J5IjpbMTU5ODc2NzYzM119
 -->
